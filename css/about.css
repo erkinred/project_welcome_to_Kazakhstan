@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.map_kz{
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: rgba(255, 140, 0, .5);
+}
+
+.bg{
+    background-color: hsla(240, 67%, 94%, .5);
+}

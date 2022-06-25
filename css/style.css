@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    position: relative;
+    background: url(../img/header_bg.jpg) center center/cover no-repeat;
+    margin-bottom: 150px;
+}
+
+.menu{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 45, .7);
+    position: fixed;
+    z-index: 5;
+}
+
+ul{
+    width: 455px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0 0 200px;
+    list-style: none;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.home{
+    color: hsl(0, 69%, 48%);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.home:hover{
+    text-decoration: underline;
+    color: hsl(0, 69%, 48%);
+}
+
+.submenu{
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 230px;
+}
+
+.i_search{
+    width: 45px;
+    height: 45px;
+    margin-top: 7px;
+}
+
+.i_call{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.lang{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.lang:hover{
+    color: hsl(0, 69%, 48%);
+}
+
+.gallery{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 120px;
+}
+
+.i_gallery{
+    margin-left: 1350px;
+    width: 70px;
+    height: 70px;
+}
+
+.i_gallery:hover{
+    opacity: .8;
+    transform: scale(1.2);
+}
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 305px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 60px;
+    text-shadow: 4px 4px 8px #828282;
+    letter-spacing: 5px;
+}
+
+.subtitle{
+    position: absolute;
+    top: 330px;
+    left: 475px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 35px;
+    text-shadow: 4px 4px 8px #828282;
+}
+
+.search{
+    position: absolute;
+    top: 420px;
+    left: 410px;
+}
+
+form input{
+    width: 750px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 0, 45, .7);
+    padding-left: 40px;
+    padding-top: 6px;
+}
+
+form input::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    opacity: .8;
+}
+
+.f_icon{
+    width: 45px;
+    height: 45px;
+}
+
+.f_search{
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, .0);
+    position: absolute;
+    top: 6px;right: 25px;
+}
+
+.inf{
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 150px;
+    top: 590px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.subinf{
+    width: 265px;
+    height: 25px;
+    border-bottom: 3px dotted rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.inf_text{
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.block{
+    width: 380px;
+    height: 590px;
+    background-color: hsla(60, 100%, 97%, .4);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.block:hover{
+    box-shadow: 7px 7px 18px #ccc;
+}
+
+.block_img{
+    width: 380px;
+    height: 270px;
+    border-radius: 30px 0 0 0;
+}
+
+h2{
+    position: absolute;
+    top: 820px;
+    left: 560px;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsla(210, 79%, 45%, .7);
+    text-shadow: 2px 2px 5px #ccc;
+}
+
+.block_title{
+    margin: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    color: hsla(210, 79%, 45%, .5);
+}
+
+.block_text{
+    width: 320px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: hsla(195, 100%, 27%, .9);
+}
+
+.btn_block{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+
+
+.details {
+    height: 826px;
+    background: url("../img/block_1.jpg") center center/cover no-repeat;
+    padding: 80px 0;
+}
+  
+.details .container {
+    position: relative;
+}
+  
+.details_quick {
+    position: absolute;
+    right: 0;
+    width: 495px;
+    height: 715px;
+    background-color: #fff;
+    padding: 48px 40px;
+}
+  
+.details_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+  
+.details_form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.details_form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+  
+.details_form input {
+    margin-bottom: 20px;
+    width: 415px;
+    height: 44px;
+    background: #F4F5F7;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+.details_form input::placeholder{
+    color: rgb(24, 22, 22);
+    font-size: 15px;
+    font-weight: 400;
+}
+  
+.details_form .checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+}
+  
+.details_form textarea {
+    display: block;
+    width: 415px;
+    height: 66px;
+    resize: none;
+    padding-left: 16px;
+    padding-top: 11px;
+    background: #F4F5F7;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    margin-bottom: 23px;
+}
+  
+.details_form .label_checkbox {
+    width: 350px;
+    font-size: 14px;
+}
+  
+.details_form .details_orange {
+    width: 174px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 14px;
+    background: #FF5A30;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    border: none;
+}
+  
+.details_form .details_orange:hover {
+    background-color: #fa3f10;
+    border: none;
+    color: #fff;
+}
+
+.i_block{
+    margin-bottom: 50px;
+}
+
+.m_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.v_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+video{
+    width: 420px;
+    height: 280px;
+}
